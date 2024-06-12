@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./../assets//images/home.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container2{
+    margin-top: 80px;
+}
+
+.course{
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+    width: 250px;
+}
+
+.course:hover{
+    transform: translateY(-10px);
+}
